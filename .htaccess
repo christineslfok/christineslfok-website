@@ -1,4 +1,1 @@
-RewriteEngine On
-RewriteBase /
 DirectoryIndex profile-page.html
-RewriteRule profile-page.html / [NC,R,L]
