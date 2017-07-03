@@ -1,3 +1,4 @@
 RewriteEngine On
 RewriteBase /
-RewriteRule ^profile-page\.html?$ / [NC,R,L]
+DirectoryIndex profile-page.html
+RewriteRule profile-page.html / [NC,R,L]
