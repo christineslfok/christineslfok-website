@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+
+  <title>Christine Fok</title>
+  <link rel="shortcut icon" type="image/png" href="assets/images/logo/favicon.png"/>
+  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link href="https://fonts.googleapis.com/css?family=Quicksand|Montserrat:400,900" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+</head>
+
+<body>
+  <div class="top-border"></div>
+  <div class="page-wrapper">
+  	<header class="center">
+      <a href="index.html" class="logo"><img src="assets/images/logo/ChristineFok.png"></a>
+      <div class="header-right">
+        <a href="about.html" >about</a>
+        <a href="#" class="active">contact</a>
+      </div>
+    </header>
+
+    <section id="contactFom" class="center">
+      <form method="POST" action="https://formspree.io/christineslfok@gmail.com">
+        <h3>Hi Christine,</h3>
+        
+        <div>
+          <h3>This is </h3>
+          <input id="formName" type="name" name="name" placeholder="Your Name">
+        </div>
+        <div>
+          <h3>Let's talk about </h3>
+          <input type="text" name="message" placeholder="Message">
+        </div>
+        <div>
+          <h3>Reach me at </h3>
+          <input type="email" name="email" placeholder="Your Email">
+        </div>
+        <div>
+          <h3>Cheers,</h3><br>
+          <h3 id="buttonName"></h3>
+        </div>
+        <button type="submit">
+          Send<i class="fas fa-paper-plane"></i>
+        </button>
+      </form>
+    </section>
+
+    <section id="socialMedia" class="center">
+      <a href="https://www.linkedin.com/in/christine-fok-1635462b/" target="_blank">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+      <a href="https://medium.com/@christineslfok" target="_blank">
+        <i class="fab fa-medium-m"></i>
+      </a>
+      <a href="https://github.com/christineslfok" target="_blank">
+        <i class="fab fa-github"></i>
+      </a>
+      <a href="https://codepen.io/christineslfok/" target="_blank">
+        <i class="fab fa-codepen"></i>
+      </a>
+      <a href="https://twitter.com/christineslfok" target="_blank">
+        <i class="fab fa-twitter"></i>
+      </a>
+      <a href="https://www.instagram.com/christineslfok/" target="_blank">
+        <i class="fab fa-instagram"></i>
+      </a>
+
+    </section>
+
+  </div>
+  <div class="bottom-border"></div>
+
+  <script type="text/javascript">
+    $("#formName").focusout(function () {
+      $("#buttonName").html($("#formName").val());
+    });
+  </script>
+
+</body>
+
+</html>
