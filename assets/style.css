@@ -290,6 +290,10 @@ input:focus {
     top: auto;
     bottom: 4px;
   }
+  .item .img-caption h3,
+  .item .img-caption p {
+    opacity: 1;
+  }
 }
 
 /* Contact */
