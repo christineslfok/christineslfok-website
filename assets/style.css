@@ -202,10 +202,7 @@ input:focus {
 }
 
 .section {
-  height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  margin-top: 100px;
 }
 
 .page-wrapper .main {
