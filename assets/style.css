@@ -147,6 +147,7 @@ header .logo {
 
 header .logo img {
   width: 150px;
+  border-radius: 0;
 }
 
 .header-right {
@@ -173,6 +174,9 @@ header a {
   }
   .header-right {
     padding-top: 14px;
+  }
+  header a {
+    padding-right: 0;
   }
 }
 
@@ -276,6 +280,12 @@ input:focus {
   scroll-behavior: smooth;
 }
 
+@media screen and (max-width: 767px) {
+  .page-wrapper .main {
+    padding: 0 20px;
+  }
+}
+
 /* Index */
 
 .masonry.center {
@@ -368,6 +378,7 @@ input:focus {
     opacity: 1;
     height: 50px;
     top: auto;
+    bottom: 0;
   }
   .item .img-caption h3,
   .item .img-caption p {
