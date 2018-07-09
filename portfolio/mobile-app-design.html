@@ -9,11 +9,9 @@
   <title>Christine Fok</title>
   <link rel="shortcut icon" type="image/png" href="../assets/images/logo/favicon.ico"/>
   <link rel="apple-touch-icon" sizes="128x128" href="../assets/images/logo/logo.png">
-  <link rel="stylesheet" type="text/css" href="../assets/style.css?v=2">
+  <link rel="stylesheet" type="text/css" href="../assets/style.css">
   <link href="https://fonts.googleapis.com/css?family=Quicksand|Montserrat:400,900" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
 </head>
 
 <body>
@@ -32,18 +30,99 @@
     <div class="banner align-center" style="background-image: url(../assets/images/portfolio/mobile-app-design/snagr-fm-banner.png);">
       <div class="title">
         <h1>Mobile App Design</h1>
-        <p>Two apps under the brand SnagR are expected to be released in July 2018 and by the end of the same year respectively.</p>
+        <p>SnagR Home is a mobile app specifically designed to facilitate the handover process between the developer and home owners.</p>
+        <a href="#main"><img class="icon" src="../assets/images/icon/icons8-double_down-pink.png"></a>
       </div>
     </div>
 
-    <div class="main align-center">
-      <div class="row">
-
+    <div id="main" class="main center">
+      <div class="section center">
+        <h2><span>DEFINE </span><span>Requirements</span></h2>
+        <h3>Business Requirements</h3>
+        <div class="divide-border"></div>
+        <p>
+          SnagR Home is part of the construction management solution to be sold to real estate developers, while the primary users of the app are home owners. In brief, major stakeholders of the app include :-
+        </p>
+        <ul>
+          <li><strong>External Stakeholders</strong></li>
+          <li>Home Owners - to make the handover process easier and faster</li>
+          <li>Property Managers - to reduce their workload by reducing manual steps</li>
+          <li>Real Estate Developers (paying customers) - to save on-site staffing cost and improve customer satisfaction</li>
+          <br>
+          <li><strong>Internal Stakeholders</strong></li>
+          <li>Sales Team - to increase their stake to successfully sell the app to developers</li>
+          <li>Client Excellence Team - to minimise training / support to be provided to users</li>
+        </ul>
+        <img src="../assets/images/portfolio/mobile-app-design/define-requirement.jpg">
+        <br>
+        <h3>Functional Requirements</h3>
+        <div class="divide-border"></div>
+        <!-- <p>
+          After understanding the above business requirements, we have to actually look into how the handover process is currently like, then brainstorm what users need and how we can help through SnagR Home.
+          <br>
+          Home Owners collect the key and some paper forms from property management office. Both of them would take a tour of the apartment together and jot down issues to request the developer to fix within the contractual period. Before the end of tour, the Home Owner would usually take a picture of the issue form for their own record, while the hardcopy of the issues would be left for the Property Manager to follow up.
+          <br>
+          After the tour, the Property Manager would call the contractors to come and fix the issues. Contractors would then go the the unit, fix the issues and call back the Property Manager that the unit is ready for another inspection with the Home Owner.
+          <br>
+          The above process will go on a loop until the Home Owner is fully satisfied with all the issues fixed. The Property Manager has to monitor the progress and submit daily reports to the Head Office.
+        </p> -->
+        <p>
+          Translating the above business requirements, the app has to be able to :-
+        </p>
+        <ol>
+          <li>Add defects with photos to the Developer easily</li>
+          <li>Be instantly notified on the defect-fixing progress</li>
+          <li>Keep track of & submit forms as required</li>
+          <li>Get access to floor plans, warranty cards, manuals and more</li>
+        </ol>
+        <p>
+          As the app will be released globally, users are expected to come from different age groups, languages and technology adaptation level. The app has to be multilingual and the interface must be particularly intuitive.
+        </p>
       </div>
+
+      <div class="section center">
+        <h2><span>DESIGN </span><span>User Flow</span></h2>
+        <p>
+          To test if the user flow is logical and intuitive, it is of utmost importance to create user flow diagram within minimal user interface design to avoid being distracted by the asethetics at this stage. Test the design by asking interviewees to complete tasks assigned to see if they know what buttons to tap on and record jackpots as well as drawbacks.
+        </p>
+        <br>
+        <img src="../assets/images/portfolio/mobile-app-design/user-flow-design.png">
+        <p>
+          I've conducted <strong>interviews with different stakeholders</strong>, including Home Owners, and colleagues from Sales and Client Excellence Teams from global offices. This process has been iterated for over 10 times before moving on to the next stage.
+        </p>
+      </div>
+      <div class="section center">
+        <h2><span>DESIGN </span><span>User Interface</span></h2>
+        <p>
+          I used <img class="icon-5x" src="../assets/images/portfolio/mobile-app-design/sketch-logo.png" style="margin: 0 0 -2px 0;"> to create the user interface, and created a style guide for fast prototyping as well as for future reference for developers.
+        </p>
+        <img src="../assets/images/portfolio/mobile-app-design/snagr-home-mockup-thumbnail.jpeg">
+      </div>
+      <div id="lo-hi-fidelity-prototypes" class="section center">
+        <h2><span>LO/HI Fidelity </span><span>Prototypes</span></h2>
+        <p>
+          Low-fidelity prototype can be said to have implemented from the stage of User Flow Design. For the high-fidelity prototype, I used <img class="icon-5x" src="../assets/images/portfolio/mobile-app-design/invision-logo.png" style="margin: 0 0 -6px 0;"> to create the transitions between screens and motions of elements to provide more precise interaction experience of the app.
+        </p>
+
+        <a href="https://projects.invisionapp.com/prototype/SnagR-Home-V6-cjglvct1e002cuw01wo5ob02s/play/df6c3ace" target="_blank">
+          <button>
+            Discover on Invision<i class="fas fa-external-link-square-alt"></i>
+          </button>
+        </a>
+      
+        <div class="image-wrapper">
+          <img src="../assets/images/portfolio/mobile-app-design/prototype-01.gif">
+        </div>
+      </div>
+      <div class="section center">
+        
+      </div>
+
     </div>
   </div>
   <div class="bottom-border"></div>
 
 </body>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="../assets/custom.js"></script>
 </html>
