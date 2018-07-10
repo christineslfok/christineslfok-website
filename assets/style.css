@@ -14,7 +14,7 @@ html {
 body {
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0, 0, 0, .9);
   font-family: 'Quicksand', sans-serif;
 }
 
@@ -70,7 +70,7 @@ img.icon-5x {
 a {
   /*color: #000;
   text-decoration: underline dotted #ff2d55;*/
-  /*color: #ff2d55;*/
+  color: #ff2d55;
   text-decoration: none;
   cursor: pointer;
 }
@@ -79,10 +79,10 @@ button {
   padding: 10px;
   font-family: 'Quicksand', sans-serif;
   font-size: 0.9em;
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0, 0, 0, .9);
   border: 1px solid #ff2d55;
   border-radius: 5px;
-  background-color: #ffffff;
+  background-color: rgba(255,255,255,.9);
   min-width: 100px;
 }
 
@@ -101,7 +101,7 @@ button:hover i {
 
 h1 {
   margin: 10px 0;
-  color: rgba(0, 0, 0, .8);
+  color: rgba(0, 0, 0, .9);
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -432,7 +432,7 @@ input:focus {
   transition: all 0.2s ease-in-out;
   -webkit-backface-visibility: hidden;
   -webkit-transform: translateZ(0) scale(1, 1);
-  background-color: rgba(255,255,255,0.5);
+  background-color: rgba(255,255,255,0.6);
 }
 
 .banner:hover::after {
@@ -461,6 +461,9 @@ input:focus {
 }
 
 @media screen and (max-height: 640px) {
+  .banner::after {
+    background-color: rgba(255,255,255,0.8);
+  }
    #portfolio-title {
      position: absolute;
      top: 120px;
@@ -512,7 +515,7 @@ h2 {
 }
 
 .img-circle .img-caption h3 {
-  color: rgba(0,0,0,.8);
+  color: rgba(0,0,0,.9);
 }
 
 .section.center .image-wrapper {
