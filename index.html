@@ -8,7 +8,7 @@
 
   <title>Christine Fok</title>
   <link rel="shortcut icon" type="image/png" href="assets/images/logo/favicon.png"/>
-  <link rel="stylesheet" type="text/css" href="assets/style.css">
+  <link rel="stylesheet" type="text/css" href="assets/style.css?v=4">
   <link href="https://fonts.googleapis.com/css?family=Quicksand|Montserrat:400,900" rel="stylesheet">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 </head>
@@ -26,96 +26,106 @@
       </div>
     </header>
 
-    <div class="main masonry center">
-      <a class="item" href="portfolio/mobile-app-design.html">
-        <img src="assets/images/portfolio/mobile-app-design/snagr-fm-thumbnail.png">
-        <div class="img-caption">
-          <h3>Mobile App Design</h3>
+    
+      <div class="banner align-center" style="background-image: url(assets/images/portfolio/portfolio-background.jpg); background-position: bottom;" onscroll="toPortfolio()">
+        <div id="portfolio-title" class="title">
+          <h2>Hi, I'm a </h2><h1><span id="myRole">UX Content Strategist</span></h1>
+          <a href="#main"><img class="icon" src="../assets/images/icon/icons8-double_down-pink.png"></a>
         </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/website-design/snagr-index-thumbnail.png">
-        <div class="img-caption">
-          <h3>Website Design</h3>
-        </div>
-      </a>
-      <a class="item" href="#">
-        <img src="assets/images/portfolio/ui-design/spaceX-checkout.png">
-        <div class="img-caption">
-          <h3>UI Design</h3>
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/brand-identity-development/snagr-home-logo-thumbnail.png">
-        <div class="img-caption">
-          <h3>Brand Identity Development</h3>
-          <!-- <p>A Cohesive Approach to Branding</p> -->
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/lead-generation/sign-up-form.png">
-        <div class="img-caption">
-          <h3>Lead Generation</h3>
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/lead-engagement/intercom.png">
-        <div class="img-caption">
-          <h3>Lead Engagement</h3>
-          <!-- <p>B2B On-boarding Campaign</p> -->
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/brochure-design/snagr-brochure-front-thumbnail.png">
-        <div class="img-caption">
-          <h3>Brochure Design</h3>
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/presentation-design/snagr-home-deck-thumbnail.png">
-        <div class="img-caption">
-          <h3>Presentation Design</h3>
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/infographic-design/cv-foxan.png">
-        <div class="img-caption">
-          <h3>Infographic Design</h3>
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/poster-design/snagr-poster.png">
-        <div class="img-caption">
-          <h3>Poster Design</h3>
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/content-strategy/snagr-brochure-thumbnail.png">
-        <div class="img-caption">
-          <h3>Content Strategy</h3>
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/doodle-fun/belgium-place-royale-framed-thumbnail.png">
-        <div class="img-caption">
-          <h3>Doodle Fun</h3>
-        </div>
-      </a>
-      <a class="item">
-        <img src="assets/images/portfolio/expo-design/snagr-mena-expo.jpeg">
-        <div class="img-caption">
-          <h3>Expo Design</h3>
-        </div>
-      </a>
-      <!-- <a class="item">
-        <img src="assets/images/portfolio/graphic-design/presentation.png">
-        <div class="img-caption">
-          <h3>Graphic Design</h3>
-          <p></p>
-        </div>
-      </a> -->
-  </div>
+      </div>
+      <div id="main" class="main masonry center">
+        <a class="item" href="portfolio/mobile-app-design.html">
+          <img src="assets/images/portfolio/mobile-app-design/snagr-fm-thumbnail.png">
+          <div class="img-caption">
+            <h3>Mobile App Design</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/website-design/snagr-index-thumbnail.png">
+          <div class="img-caption">
+            <h3>Website Design</h3>
+          </div>
+        </a>
+        <a class="item" href="#">
+          <img src="assets/images/portfolio/ui-design/spaceX-checkout.png">
+          <div class="img-caption">
+            <h3>UI Design</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/brand-identity-development/snagr-home-logo-thumbnail.png">
+          <div class="img-caption">
+            <h3>Brand Identity Development</h3>
+            <!-- <p>A Cohesive Approach to Branding</p> -->
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/lead-generation/sign-up-form.png">
+          <div class="img-caption">
+            <h3>Lead Generation</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/lead-engagement/intercom.png">
+          <div class="img-caption">
+            <h3>Lead Engagement</h3>
+            <!-- <p>B2B On-boarding Campaign</p> -->
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/brochure-design/snagr-brochure-front-thumbnail.png">
+          <div class="img-caption">
+            <h3>Brochure Design</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/presentation-design/snagr-home-deck-thumbnail.png">
+          <div class="img-caption">
+            <h3>Presentation Design</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/infographic-design/cv-foxan.png">
+          <div class="img-caption">
+            <h3>Infographic Design</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/poster-design/snagr-poster.png">
+          <div class="img-caption">
+            <h3>Poster Design</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/content-strategy/snagr-brochure-thumbnail.png">
+          <div class="img-caption">
+            <h3>Content Strategy</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/doodle-fun/belgium-place-royale-framed-thumbnail.png">
+          <div class="img-caption">
+            <h3>Doodle Fun</h3>
+          </div>
+        </a>
+        <a class="item">
+          <img src="assets/images/portfolio/expo-design/snagr-mena-expo.jpeg">
+          <div class="img-caption">
+            <h3>Expo Design</h3>
+          </div>
+        </a>
+        <!-- <a class="item">
+          <img src="assets/images/portfolio/graphic-design/presentation.png">
+          <div class="img-caption">
+            <h3>Graphic Design</h3>
+            <p></p>
+          </div>
+        </a> -->
+    
+      </div>
+    
   <div class="bottom-border"></div>
-
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/custom.js"></script>
 </html>

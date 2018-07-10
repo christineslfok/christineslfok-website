@@ -1,3 +1,32 @@
+// My Role on Homepage
+var textArray = ["UX Designer","UI Designer","Marketing Strategist","Growth Hacker", "UX Strategist", "Content Strategist"];
+var index = 0;
+setInterval(function(){        
+$("#myRole").animate({
+opacity:0
+},function()
+{
+   if(textArray.length > index) {
+   $(this).text(textArray[index]).animate({opacity:1})
+   index++; 
+   }
+   else {
+     index = 0;
+     $(this).text("UX Content Strategist").animate({opacity:1})
+   }
+});
+},2000);
+
+
+
+// Contact Form
+$("#formName").focusout(function () {
+    $("#buttonName").html($("#formName").val());
+  });
+
+
+
+// Smooth Scroll
 // Select all links with hashes
 $('a[href*="#"]')
   // Remove links that don't actually link to anything
