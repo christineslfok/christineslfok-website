@@ -538,3 +538,15 @@ h2 {
   text-align: justify;
   line-height: 1.2em;
 }
+
+.iframe-wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.vertical-viewer {
+  width: 100%;
+  max-width: 400px;
+  height: 100vw;
+  max-height: 500px;
+}
