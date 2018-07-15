@@ -291,6 +291,10 @@ input:focus {
 
 /* Index */
 
+#myRole {
+  color: #ff2d55;
+}
+
 .masonry.center {
   max-width: 80vw;
   padding-top: 100px;
@@ -542,11 +546,30 @@ h2 {
 .iframe-wrapper {
   width: 100%;
   text-align: center;
+  margin: 20px 0 60px 0;
 }
+
 
 .vertical-viewer {
   width: 100%;
-  max-width: 400px;
-  height: 100vw;
-  max-height: 500px;
+  height: calc(80vw * 297 / 210);
+}
+
+.horizontal-viewer {
+  width: 100%;
+  height: calc(100vw / 16 * 9);
+  min-height: 200px;
+}
+
+
+@media screen and (min-width: 768px) {
+  .vertical-viewer {
+    width: 50%;
+    max-width: 384px;
+    height: calc(384px * 297 / 210);
+  }
+  .horizontal-viewer {
+    width: 100%;
+    height: calc(768px / 16 * 9);
+  }
 }
