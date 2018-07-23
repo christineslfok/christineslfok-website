@@ -63,3 +63,9 @@ $('a[href*="#"]')
       }
     }
   });
+
+
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.banner').css('background-position', 'center ' + ((scrolledY)) + 'px');
+});
