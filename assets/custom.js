@@ -1,3 +1,8 @@
+$(window).scroll(function() {
+  var scrolledY = $(window).scrollTop();
+  $('.banner').css('background-position', 'center ' + ((scrolledY)) + 'px');
+});
+
 // My Role on Homepage
 var textArray = ["UX Designer","UI Designer","Marketing Strategist","Growth Hacker", "UX Strategist", "Content Strategist"];
 var index = 0;
@@ -6,14 +11,14 @@ $("#myRole").animate({
 opacity:0
 },function()
 {
-   if(textArray.length > index) {
-   $(this).text(textArray[index]).animate({opacity:1})
-   index++; 
-   }
-   else {
-     index = 0;
-     $(this).text("UX Content Strategist").animate({opacity:1})
-   }
+  if(textArray.length > index) {
+  $(this).text(textArray[index]).animate({opacity:1})
+  index++; 
+  }
+  else {
+    index = 0;
+    $(this).text("UX Content Strategist").animate({opacity:1})
+  }
 });
 },2000);
 
@@ -21,7 +26,7 @@ opacity:0
 
 // Contact Form
 $("#formName").focusout(function () {
-    $("#buttonName").html($("#formName").val());
+    $("#yourName").html($("#formName").val());
   });
 
 
@@ -63,9 +68,3 @@ $('a[href*="#"]')
       }
     }
   });
-
-
-$(window).scroll(function() {
-  var scrolledY = $(window).scrollTop();
-  $('.banner').css('background-position', 'center ' + ((scrolledY)) + 'px');
-});

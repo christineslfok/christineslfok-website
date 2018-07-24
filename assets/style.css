@@ -391,7 +391,7 @@ input:focus {
 }
 
 /* Contact */
-#buttonName {
+#yourName {
   margin-top: -20px;
 }
 
@@ -418,9 +418,7 @@ input:focus {
   width: 100vw;
   height: 100vh;
   padding: 20px;
-  background-position: center;
   background-size: cover;
-  background-attachment: fixed;
   background-repeat: no-repeat;
   margin: 0;
 }
