@@ -466,8 +466,8 @@ input:focus {
 }
 
 #portfolio-title {
-   position: absolute;
-   top: 200px;
+   /*position: absolute;*/
+   margin-top: 200px;
 }
 
 @media screen and (max-height: 640px) {
