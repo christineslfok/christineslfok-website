@@ -167,14 +167,13 @@ header .logo * {
 }
 
 header .logo img {
-  height: 36px;
+  height: 38px;
   /*width: 150px;*/
   border-radius: 0;
 }
 
 .header-right {
   margin: 0;
-  padding: 0;
   float: right;
   padding-top: 20px;
 }
@@ -192,12 +191,12 @@ header a {
     height: 65px;
   }
   header .logo {
-    margin-top: 5px;
+    margin-top: 0;
     float: left;
     font-size: 1em;
   }
   header .logo img {
-    height: 30px;
+    height: 36px;
     /*width: 130px;*/
   }
   .header-right {
