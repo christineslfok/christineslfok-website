@@ -4,7 +4,7 @@ $(window).scroll(function() {
 });
 
 // My Role on Homepage
-var textArray = ["UX Designer","UI Designer","Marketing Strategist","Growth Hacker", "UX Strategist", "Content Strategist"];
+var textArray = ["UX Designer","UI Designer","UX Writer","Content Strategist","Copywriter","Graphic Designer"];
 var index = 0;
 setInterval(function(){        
 $("#myRole").animate({
