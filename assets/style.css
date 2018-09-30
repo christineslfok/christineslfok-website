@@ -269,6 +269,16 @@ input:focus {
   max-width: 768px;
 }
 
+.footer p {
+  font-size: small;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.footer p i {
+  color: #ff2d55;
+}
+
 @media screen and (max-width: 768px) {
   .center {
     padding: 0 10px;
