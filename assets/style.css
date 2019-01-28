@@ -23,8 +23,8 @@ div:focus {
 }
 
 strong {
-  font-weight: 100;
-  text-decoration: underline #ff2d55;
+  font-weight: 700;
+  color: #ff2d55;
 }
 
 header a:hover, header a.active, header a:hover, button i {
@@ -75,10 +75,8 @@ img.icon-5x {
 }
 
 a {
-  /*color: #000;
-  text-decoration: underline dotted #ff2d55;*/
+  text-decoration: underline #ff2d55;
   color: #ff2d55;
-  text-decoration: none;
   cursor: pointer;
 }
 
@@ -153,10 +151,13 @@ header {
   padding: 20px;
 }
 
-
+header .logo h3 span:nth-child(2) {
+  text-transform: uppercase;
+  color: #ff2d55;
+}
 
 header .logo {
-  margin-top: 10px;
+  margin-top: 15px;
   float: left;
   font-size: 1.2em;
 }
@@ -168,7 +169,6 @@ header .logo * {
 
 header .logo img {
   height: 38px;
-  /*width: 150px;*/
   border-radius: 0;
 }
 
@@ -475,16 +475,22 @@ input:focus {
   z-index: 1;
 }
 
-.title {
-  text-align: center;
+.hero-title {
+  text-align: left;
 }
 
-.title h1 {
-  font-weight: 400;
+.hero-title h1 {
+  font-size: 5em;
+  font-weight: 700;
+  text-transform: uppercase;
 }
 
-.title p {
+.hero-title p {
   font-size: 1.2em;
+}
+
+.hero-title p strong {
+  color: #ff2d55;
 }
 
 #portfolio-title {
