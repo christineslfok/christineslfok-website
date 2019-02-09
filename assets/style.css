@@ -493,6 +493,12 @@ input:focus {
   color: #ff2d55;
 }
 
+@media screen and (max-width: 767px) {
+  .hero-title h1 {
+    font-size: 12vw;
+  }
+}
+
 #portfolio-title {
    margin-top: 180px;
 }
