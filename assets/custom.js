@@ -3,25 +3,6 @@ $(window).scroll(function() {
   $('.banner').css('background-position', 'center ' + ((scrolledY)) + 'px');
 });
 
-// My Role on Homepage
-// var textArray = ["UX Designer","UI Designer","UX Writer","Content Strategist","Visual Designer","Cognitive Designer"];
-// var index = 0;
-// setInterval(function(){        
-// $("#myWork").animate({
-// opacity:0
-// },function()
-// {
-//   if(textArray.length > index) {
-//   $(this).text(textArray[index]).animate({opacity:1})
-//   index++; 
-//   }
-//   else {
-//     index = 0;
-//     $(this).text("UX Content Strategist").animate({opacity:1})
-//   }
-// });
-// },2000);
-
 // Contact Form
 $("#formName").focusout(function () {
     $("#yourName").html($("#formName").val());
