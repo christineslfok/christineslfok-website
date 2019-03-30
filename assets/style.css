@@ -10,12 +10,11 @@ html {
   box-sizing: inherit;
 }
 
-
 body {
   margin: 0;
   padding: 0;
-  color: rgba(0, 0, 0, .9);
-  font-family: 'Quicksand', sans-serif;
+  color: rgba(0, 0, 0, .6);
+  font-family: 'Raleway', sans-serif;
 }
 
 div:focus {
@@ -24,7 +23,7 @@ div:focus {
 
 strong {
   font-weight: 700;
-  color: #ff2d55;
+  color: rgba(0, 0, 0, 1);
 }
 
 header a:hover, header a.active, header a:hover, button i {
@@ -82,7 +81,7 @@ a {
 
 button {
   padding: 10px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
   font-size: 0.9em;
   color: rgba(0, 0, 0, .9);
   border: 1px solid #ff2d55;
@@ -107,23 +106,29 @@ button:hover i {
 h1 {
   margin: 10px 0;
   color: rgba(0, 0, 0, .9);
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Abril Fatface', cursive;
 }
 
 h1 span:nth-child(1),
-h2 span:nth-child(1) {
+h2 span:nth-child(1),
+h3 span:nth-child(1) {
+  font-family: 'Abril Fatface', cursive;
   font-weight: 100;
+  color: rgba(0, 0, 0, 1);
 }
 
 
 h1 span:nth-child(2),
-h2 span:nth-child(2) {
+h2 span:nth-child(2),
+h3 span:nth-child(2) {
+  font-weight: 100;
   color: #ff2d55;
   text-transform: uppercase;
+  font-family: 'Raleway', sans-serif;
 }
 
 h3 {
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
 }
 
 .divide-border {
@@ -136,16 +141,10 @@ ul > li {
   list-style-type: none;
 }
 
-::selection {
-  background-color: #ff2d55;
-  color: #ffffff;
-}
-
 header {  
   position: fixed;
   top: 0;
   z-index: 2;
-  background-color: #fff;
   overflow: hidden;
   width: 100vw;
   padding: 20px;
@@ -175,7 +174,10 @@ header .logo img {
 .header-right {
   margin: 0;
   float: right;
-  padding-top: 20px;
+}
+
+.header-right a {
+  margin-left: 5px;
 }
 
 header a {
@@ -198,9 +200,6 @@ header a {
   header .logo img {
     height: 36px;
     /*width: 130px;*/
-  }
-  .header-right {
-    padding-top: 14px;
   }
   header a {
     padding-right: 0;
@@ -247,7 +246,7 @@ form > div > input {
 input {
   font-size: 18px;
   padding: 10px 10px 10px 5px;
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Raleway', sans-serif;
   width: 40%;
   border: none;
   border-bottom: 1px solid gray;
@@ -428,7 +427,6 @@ input:focus {
   display: inline-block;
   font-size: 1.5em;
   width: 15%;
-  color: rgba(0, 0, 0, .6);
 }
 
 #socialMedia > a > i:hover {
@@ -448,8 +446,8 @@ input:focus {
   height: 100vh;
   padding: 20px;
   background-size: cover;
-  background-repeat: no-repeat;
   background-position: center;
+  background-repeat: no-repeat;
   margin: 0;
 }
 
@@ -481,16 +479,10 @@ input:focus {
 
 .hero-title h1 {
   font-size: 5em;
-  font-weight: 700;
-  text-transform: uppercase;
 }
 
 .hero-title p {
   font-size: 1.2em;
-}
-
-.hero-title p strong {
-  color: #ff2d55;
 }
 
 @media screen and (max-width: 767px) {
@@ -501,12 +493,6 @@ input:focus {
 
 #portfolio-title {
    margin-top: 180px;
-}
-
-@media screen and (max-height: 640px) {
-  .banner::after {
-    background-color: rgba(255,255,255,0.8);
-  }
 }
 
 h2 {
